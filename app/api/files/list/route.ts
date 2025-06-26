@@ -28,7 +28,9 @@ export async function GET(request: NextRequest) {
     // Fetch user info for all uploader IDs
     const users = await UserModel.findManyByIds(uploaderIds)
     const userMap = Object.fromEntries(
-      users.filter(u => u._id).map(u => [u._id.toString(), u.name || u.email])
+      users
+        .filter((u): u is import("@/lib/server-only/models/User").User => !!u._id)
+        .map(u => [u._id?.toString(), u.name || u.email])
     )
 
     // Attach uploader name/email to each file
