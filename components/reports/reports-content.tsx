@@ -47,12 +47,64 @@ interface ReportsContentProps {
   user: User
 }
 
+interface TimeTrackingDataItem {
+  day: string
+  hours: number
+  target: number
+}
+
+interface PomodoroDataItem {
+  hour: string
+  pomodoros: number
+}
+
+interface ProjectTimeDataItem {
+  name: string
+  hours: number
+  color: string
+}
+
+interface ProductivityTrendItem {
+  week: string
+  efficiency: number
+  focus: number
+  completion: number
+}
+
+interface DonutChartDataItem {
+  name: string
+  value: number
+  color: string
+}
+
+interface FocusSessionsByDayItem {
+  day: string
+  sessions: number
+}
+
+interface RealTimeData {
+  totalHours: number
+  pomodoroSessions: number
+  efficiencyRate: number
+  tasksCompleted: number
+  timeTrackingData: TimeTrackingDataItem[]
+  pomodoroData: PomodoroDataItem[]
+  projectTimeData: ProjectTimeDataItem[]
+  productivityTrends: ProductivityTrendItem[]
+  taskCompletionData: any[]
+  donutChartData: DonutChartDataItem[]
+  avgSessionLength: number
+  breakSkipped: number
+  focusBreakRatio: number
+  focusSessionsByDay: FocusSessionsByDayItem[]
+}
+
 const COLORS = ["#3B82F6", "#10B981", "#F59E0B", "#EF4444", "#8B5CF6"]
 
 export default function ReportsContent({ user }: ReportsContentProps) {
   const [isLoading, setIsLoading] = useState(true)
   const [pomodoroSessions, setPomodoroSessions] = useState<any[]>([])
-  const [realTimeData, setRealTimeData] = useState({
+  const [realTimeData, setRealTimeData] = useState<RealTimeData>({
     totalHours: 0,
     pomodoroSessions: 0,
     efficiencyRate: 0,
@@ -98,29 +150,29 @@ export default function ReportsContent({ user }: ReportsContentProps) {
 
       // --- REAL DATA AGGREGATION ---
       // Total Hours
-      const totalHours = timeLogs.reduce((sum, log) => sum + (log.hours || 0), 0)
+      const totalHours = timeLogs.reduce((sum: number, log: any) => sum + (log.hours || 0), 0)
       // Focus Sessions (Pomodoro)
-      const focusSessions = timeLogs.reduce((sum, log) => sum + (log.pomodoroSessions || 0), 0)
+      const focusSessions = timeLogs.reduce((sum: number, log: any) => sum + (log.pomodoroSessions || 0), 0)
       // Tasks Done
-      const completedTasks = tasks.filter((task) => task.status === "completed")
+      const completedTasks = tasks.filter((task: any) => task.status === "completed")
 
       // Weekly Time Tracking Chart (group by day)
       const weekDays = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
       const timeTrackingData = weekDays.map((day, i) => {
-        const logsForDay = timeLogs.filter(log => new Date(log.date).getDay() === i)
+        const logsForDay = timeLogs.filter((log: any) => new Date(log.date).getDay() === i)
         return {
           day,
-          hours: logsForDay.reduce((sum, log) => sum + (log.hours || 0), 0),
+          hours: logsForDay.reduce((sum: number, log: any) => sum + (log.hours || 0), 0),
           target: 8,
         }
       })
 
       // Weekly Focus Sessions Chart (group by day)
       const focusSessionsByDay = weekDays.map((day, i) => {
-        const logsForDay = timeLogs.filter(log => new Date(log.date).getDay() === i)
+        const logsForDay = timeLogs.filter((log: any) => new Date(log.date).getDay() === i)
         return {
           day,
-          sessions: logsForDay.reduce((sum, log) => sum + (log.pomodoroSessions || 0), 0),
+          sessions: logsForDay.reduce((sum: number, log: any) => sum + (log.pomodoroSessions || 0), 0),
         }
       })
 
@@ -128,15 +180,15 @@ export default function ReportsContent({ user }: ReportsContentProps) {
       const hours = Array.from({ length: 24 }, (_, i) => i)
       const pomodoroDataByHour = hours.map((hour) => ({
         hour: `${hour}:00`,
-        pomodoros: timeLogs.filter(log => {
+        pomodoros: timeLogs.filter((log: any) => {
           const d = new Date(log.date)
           return d.getHours() === hour
-        }).reduce((sum, log) => sum + (log.pomodoroSessions || 0), 0),
+        }).reduce((sum: number, log: any) => sum + (log.pomodoroSessions || 0), 0),
       }))
 
       // Donut chart: Focus vs Break time (minutes)
-      const focusMinutes = timeLogs.reduce((sum, log) => sum + ((log.pomodoroSessions || 0) * 25), 0)
-      const breakMinutes = timeLogs.reduce((sum, log) => sum + (log.breakMinutes || 0), 0)
+      const focusMinutes = timeLogs.reduce((sum: number, log: any) => sum + ((log.pomodoroSessions || 0) * 25), 0)
+      const breakMinutes = timeLogs.reduce((sum: number, log: any) => sum + (log.breakMinutes || 0), 0)
       const donutChartData = [
         { name: 'Focus', value: Math.round(focusMinutes), color: '#3B82F6' },
         { name: 'Break', value: Math.round(breakMinutes), color: '#F59E0B' },
@@ -144,11 +196,11 @@ export default function ReportsContent({ user }: ReportsContentProps) {
 
       // Project Time Distribution (aggregate from timeLogs)
       const projectTimeMap = new Map()
-      timeLogs.forEach(log => {
-        const projectId = tasks.find(t => t._id === log.taskId)?.project
+      timeLogs.forEach((log: any) => {
+        const projectId = tasks.find((t: any) => t._id === log.taskId)?.project
         if (!projectId) return
         if (!projectTimeMap.has(projectId)) {
-          const project = projects.find(p => p._id === projectId)
+          const project = projects.find((p: any) => p._id === projectId)
           projectTimeMap.set(projectId, {
             name: project ? project.title : 'Unknown',
             hours: 0,
@@ -179,20 +231,20 @@ export default function ReportsContent({ user }: ReportsContentProps) {
       // Aggregate for each week
       const productivityTrends = weeks.map(({ week, weekNum, year }) => {
         // Filter logs and tasks for this week
-        const logsForWeek = timeLogs.filter(log => {
+        const logsForWeek = timeLogs.filter((log: any) => {
           const d = new Date(log.date);
           return getWeekNumber(d) === weekNum && d.getFullYear() === year;
         });
-        const tasksForWeek = tasks.filter(task => {
+        const tasksForWeek = tasks.filter((task: any) => {
           const d = new Date(task.createdAt || task.date || task.completedAt || task.updatedAt || now);
           return getWeekNumber(d) === weekNum && d.getFullYear() === year;
         });
-        const completedTasksForWeek = tasksForWeek.filter(t => t.status === "completed");
+        const completedTasksForWeek = tasksForWeek.filter((t: any) => t.status === "completed");
         // Efficiency: completed/total tasks
         const efficiency = Math.round((completedTasksForWeek.length / Math.max(tasksForWeek.length, 1)) * 100);
         // Focus: total pomodoro sessions (or minutes)
-        const totalFocusSessions = logsForWeek.reduce((sum, log) => sum + (log.pomodoroSessions || 0), 0);
-        const totalHours = logsForWeek.reduce((sum, log) => sum + (log.hours || 0), 0);
+        const totalFocusSessions = logsForWeek.reduce((sum: number, log: any) => sum + (log.pomodoroSessions || 0), 0);
+        const totalHours = logsForWeek.reduce((sum: number, log: any) => sum + (log.hours || 0), 0);
         const focus = Math.round((totalFocusSessions * 25) / Math.max(totalHours * 60, 1) * 100); // as % of time
         // Completion: same as efficiency for now
         const completion = efficiency;

@@ -306,7 +306,7 @@ export default function TeamDetailsClient({ team, project, members, isLeader, le
                       </div>
                       {req.status === "pending" && (
                         <div className="flex gap-2 mt-2 md:mt-0">
-                          <Button size="sm" variant="success" disabled={actionLoading === req._id+"accepted"} onClick={() => handleAction(req._id, "accepted")}>{actionLoading === req._id+"accepted" ? "Accepting..." : "Accept"}</Button>
+                          <Button size="sm" variant="default" disabled={actionLoading === req._id+"accepted"} onClick={() => handleAction(req._id, "accepted")}>{actionLoading === req._id+"accepted" ? "Accepting..." : "Accept"}</Button>
                           <Button size="sm" variant="destructive" disabled={actionLoading === req._id+"declined"} onClick={() => handleAction(req._id, "declined")}>{actionLoading === req._id+"declined" ? "Declining..." : "Decline"}</Button>
                         </div>
                       )}

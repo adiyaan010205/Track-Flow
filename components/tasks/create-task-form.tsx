@@ -24,6 +24,7 @@ interface Project {
   title: string
   color: string
   dueDate?: string
+  members: string[]
 }
 
 interface CreateTaskFormProps {

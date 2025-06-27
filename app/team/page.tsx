@@ -11,10 +11,17 @@ export default async function TeamPage() {
     redirect("/auth/login")
   }
 
+  // Create user object with missing properties expected by TeamManagementContent
+  const userWithExtras = {
+    ...user,
+    lastActive: new Date().toISOString(), // Default to current time
+    projects: [], // Default to empty array
+  }
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
       <Suspense fallback={<TeamSkeleton />}>
-        <TeamManagementContent user={user} projectId="default" />
+        <TeamManagementContent user={userWithExtras} projectId="default" />
       </Suspense>
     </div>
   )

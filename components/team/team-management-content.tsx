@@ -43,6 +43,8 @@ interface TeamMember {
   tasksCompleted: number
   hoursWorked: number
   status: "active" | "inactive"
+  workspaceId?: string
+  teamId?: string
 }
 
 interface TeamInvitation {

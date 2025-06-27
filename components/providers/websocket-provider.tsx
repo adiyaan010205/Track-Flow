@@ -30,13 +30,13 @@ interface WebSocketProviderProps {
 }
 
 export function WebSocketProvider({ children }: WebSocketProviderProps) {
-  const { user, token } = useAuth()
+  const { user } = useAuth()
   const [socket, setSocket] = useState<Socket | null>(null)
   const [isConnected, setIsConnected] = useState(false)
 
   useEffect(() => {
-    if (user && token) {
-      const socketInstance = wsClient.connect(token)
+    if (user) {
+      const socketInstance = wsClient.connect(user._id)
       setSocket(socketInstance)
 
       socketInstance.on("connect", () => {
@@ -55,7 +55,7 @@ export function WebSocketProvider({ children }: WebSocketProviderProps) {
         setIsConnected(false)
       }
     }
-  }, [user, token])
+  }, [user])
 
   const emit = (event: string, data: any) => {
     wsClient.emit(event, data)

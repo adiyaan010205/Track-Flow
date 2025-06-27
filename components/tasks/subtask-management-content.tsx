@@ -63,7 +63,7 @@ export default function SubtaskManagementContent({ user, task, project }: Subtas
   const [isLoading, setIsLoading] = useState(true)
   const router = useRouter()
   const { toast } = useToast()
-  const fileManagerRef = useRef(null)
+  const fileManagerRef = useRef<{ triggerUpload: () => void } | null>(null)
 
   const formatDate = (dateString: string) => {
     const date = new Date(dateString)

@@ -71,6 +71,10 @@ interface TimeLog {
   userId: string
   hours: number
   date: string
+  createdAt: string
+  project?: string
+  subtaskTitle?: string
+  taskTitle?: string
 }
 
 interface TimeTrackingContentProps {
@@ -808,7 +812,7 @@ export default function TimeTrackingContent({ user }: TimeTrackingContentProps) 
             user={user}
             timeEntries={timeLogs.map((log) => ({
               _id: log._id,
-              projectId: log.project,
+              projectId: log.project || "",
               description: log.taskTitle || '',
               duration: log.hours * 60, // convert hours to minutes
               createdAt: log.date,
