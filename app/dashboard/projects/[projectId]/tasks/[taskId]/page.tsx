@@ -26,7 +26,25 @@ export default async function SubtaskManagementPage({ params }: SubtaskPageProps
       redirect("/tasks")
     }
 
-    return <SubtaskManagementContent user={user} task={task} project={project} />
+    // Convert server-side task to client-side format
+    const clientTask = {
+      _id: task._id?.toString() || "",
+      title: task.title,
+      description: task.description,
+      status: task.status,
+      priority: task.priority,
+      dueDate: task.dueDate.toISOString(),
+      estimatedHours: task.estimatedHours,
+      project: task.project.toString(),
+    }
+
+    const clientProject = {
+      _id: project._id?.toString() || "",
+      title: project.title,
+      color: project.color || "#3B82F6",
+    }
+
+    return <SubtaskManagementContent user={user} task={clientTask} project={clientProject} />
   } catch (error) {
     console.error("Error loading task:", error)
     redirect("/tasks")
