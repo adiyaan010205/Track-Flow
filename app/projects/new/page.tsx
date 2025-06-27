@@ -1,13 +1,35 @@
-import { getCurrentUser } from "@/lib/server-only/auth"
-import { redirect } from "next/navigation"
-import CreateProjectForm from "@/components/projects/create-project-form"
+"use client";
+import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
+import CreateProjectForm from "@/components/projects/create-project-form";
 
-export default async function NewProjectPage() {
-  const user = await getCurrentUser()
+export default function NewProjectPage() {
+  const [user, setUser] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const router = useRouter();
 
-  if (!user) {
-    redirect("/auth/login")
-  }
+  useEffect(() => {
+    fetch("/api/auth/me")
+      .then((res) => {
+        if (res.status === 401) {
+          router.push("/auth/login");
+          return null;
+        }
+        return res.json();
+      })
+      .then((data) => {
+        if (data && data.user) {
+          setUser(data.user);
+        }
+        setLoading(false);
+      })
+      .catch(() => {
+        router.push("/auth/login");
+      });
+  }, [router]);
+
+  if (loading) return <div className="min-h-screen flex items-center justify-center">Loading...</div>;
+  if (!user) return null;
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
@@ -21,5 +43,5 @@ export default async function NewProjectPage() {
         <CreateProjectForm user={user} />
       </div>
     </div>
-  )
+  );
 }
