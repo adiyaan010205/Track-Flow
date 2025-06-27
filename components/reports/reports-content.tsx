@@ -553,7 +553,7 @@ export default function ReportsContent({ user }: ReportsContentProps) {
                   cx="50%"
                   cy="50%"
                   labelLine={false}
-                  label={({ name, percent }) => `${name} ${(percent * 100).toFixed(0)}%`}
+                  label={({ name, percent }) => `${name} ${((percent ?? 0) * 100).toFixed(0)}%`}
                   outerRadius={90}
                   fill="#8884d8"
                   dataKey="hours"
@@ -597,7 +597,7 @@ export default function ReportsContent({ user }: ReportsContentProps) {
                   innerRadius={40}
                   outerRadius={80}
                   fill="#8884d8"
-                  label={({ name, percent }) => `${name} ${(percent * 100).toFixed(0)}%`}
+                  label={({ name, percent }) => `${name} ${((percent ?? 0) * 100).toFixed(0)}%`}
                 >
                   {(realTimeData.donutChartData || []).map((entry: any, index: number) => (
                     <Cell key={`cell-${index}`} fill={entry.color} />
