@@ -1,22 +1,11 @@
+"use client";
 import PomodoroTimer from '@/components/time-tracking/PomodoroTimer'
-import { getCurrentUser } from '@/lib/server-only/auth'
-import { redirect } from 'next/navigation'
 import dynamic from 'next/dynamic'
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import { useRouter } from 'next/navigation'
 import ActivityFeed from '@/components/dashboard/activity-feed'
 
 const LiveAnalyticsCharts = dynamic(() => import('./LiveAnalyticsCharts'), { ssr: false })
-
-async function fetchPomodoroSessions(userId: string) {
-  const today = new Date()
-  today.setHours(0, 0, 0, 0)
-  const res = await fetch(
-    `${process.env.NEXT_PUBLIC_BASE_URL || ''}/api/pomodoro-sessions?userId=${userId}&startDate=${today.toISOString()}`,
-    { cache: 'no-store' }
-  )
-  if (!res.ok) return []
-  return await res.json()
-}
 
 function getStatsAndChartData(sessions: any[]) {
   // Stats
@@ -56,11 +45,44 @@ function getStatsAndChartData(sessions: any[]) {
   }
 }
 
-export default async function LiveAnalyticsPage() {
-  const user = await getCurrentUser()
-  if (!user) redirect('/auth/login')
-  const sessions = await fetchPomodoroSessions(user._id)
-  const { stats, lineChartData, donutChartData } = getStatsAndChartData(sessions)
+export default function LiveAnalyticsPage() {
+  const [user, setUser] = useState(null);
+  const [sessions, setSessions] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const router = useRouter();
+
+  useEffect(() => {
+    fetch('/api/auth/me')
+      .then((res) => {
+        if (res.status === 401) {
+          router.push('/auth/login');
+          return null;
+        }
+        return res.json();
+      })
+      .then((data) => {
+        if (data && data.user) {
+          setUser(data.user);
+          const today = new Date();
+          today.setHours(0, 0, 0, 0);
+          fetch(`/api/pomodoro-sessions?userId=${data.user._id}&startDate=${today.toISOString()}`)
+            .then((res) => res.ok ? res.json() : [])
+            .then((sessionsData) => {
+              setSessions(sessionsData || []);
+              setLoading(false);
+            });
+        } else {
+          setLoading(false);
+        }
+      })
+      .catch(() => {
+        router.push('/auth/login');
+      });
+  }, [router]);
+
+  if (loading) return <div className="max-w-4xl mx-auto p-6">Loading...</div>;
+  if (!user) return null;
+  const { stats, lineChartData, donutChartData } = getStatsAndChartData(sessions);
 
   return (
     <>
@@ -75,5 +97,5 @@ export default async function LiveAnalyticsPage() {
         stats={stats}
       />
     </>
-  )
+  );
 } 

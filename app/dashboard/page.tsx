@@ -1,19 +1,35 @@
-import { Suspense } from "react"
-import { getCurrentUser } from "@/lib/server-only/auth"
-import { redirect } from "next/navigation"
-import DashboardContent from "@/components/dashboard/dashboard-content"
-import DashboardSkeleton from "@/components/dashboard/dashboard-skeleton"
+"use client";
+import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
+import DashboardContent from "@/components/dashboard/dashboard-content";
+import DashboardSkeleton from "@/components/dashboard/dashboard-skeleton";
 
-export default async function DashboardPage() {
-  const user = await getCurrentUser()
+export default function DashboardPage() {
+  const [user, setUser] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const router = useRouter();
 
-  if (!user) {
-    redirect("/auth/login")
+  useEffect(() => {
+    fetch("/api/auth/me")
+      .then((res) => {
+        if (res.status === 401) {
+          router.push("/auth/login");
+          return null;
+        }
+        return res.json();
+      })
+      .then((data) => {
+        if (data && data.user) setUser(data.user);
+        setLoading(false);
+      })
+      .catch(() => {
+        router.push("/auth/login");
+      });
+  }, [router]);
+
+  if (loading) {
+    return <DashboardSkeleton />;
   }
-
-  return (
-    <Suspense fallback={<DashboardSkeleton />}>
-      <DashboardContent user={user} />
-    </Suspense>
-  )
+  if (!user) return null;
+  return <DashboardContent user={user} />;
 }
