@@ -9,7 +9,7 @@ export interface Task {
   status: "todo" | "in-progress" | "review" | "completed"
   priority: "low" | "medium" | "high"
   project: ObjectId
-  assignee: ObjectId
+  assignee: ObjectId | "all"
   createdBy: ObjectId
   dueDate: Date
   estimatedHours: number
@@ -97,9 +97,10 @@ export class TaskModel {
 
   static async findByAssignee(assigneeId: string): Promise<Task[]> {
     const db = await getDatabase()
+    const query = assigneeId === "all" ? { assignee: "all" } : { assignee: new ObjectId(assigneeId) }
     return (await db
       .collection("tasks")
-      .find({ assignee: new ObjectId(assigneeId) })
+      .find(query)
       .toArray()) as Task[]
   }
 
@@ -133,7 +134,12 @@ export class TaskModel {
       .aggregate([
         {
           $match: {
-            $or: [{ createdBy: userObjectId }, { assignee: userObjectId }, { project: { $in: projectIds } }],
+            $or: [
+              { createdBy: userObjectId }, 
+              { assignee: userObjectId }, 
+              { assignee: "all" },
+              { project: { $in: projectIds } }
+            ],
           },
         },
         {

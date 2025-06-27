@@ -17,7 +17,7 @@ export async function GET() {
       ...task,
       _id: task._id?.toString(),
       project: task.project.toString(),
-      assignee: task.assignee.toString(),
+      assignee: task.assignee === "all" ? "all" : task.assignee.toString(),
       createdBy: task.createdBy.toString(),
     }))
     return NextResponse.json({ tasks: sanitizedTasks })
