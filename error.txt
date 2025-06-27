@@ -1,0 +1,1036 @@
+1:28:58 PM: Netlify Build                                                 
+1:28:58 PM: ────────────────────────────────────────────────────────────────
+1:28:58 PM: ​
+1:28:58 PM: ❯ Version
+1:28:58 PM:   @netlify/build 33.4.7
+1:28:58 PM: ​
+1:28:58 PM: ❯ Flags
+1:28:58 PM:   accountId: 6852389ed89750399ccf7077
+1:28:58 PM:   baseRelDir: true
+1:28:58 PM:   buildId: 685e4f294a91b90008dad82e
+1:28:58 PM:   deployId: 685e4f294a91b90008dad830
+1:28:58 PM: ​
+1:28:58 PM: ❯ Current directory
+1:28:58 PM:   /opt/build/repo
+1:28:58 PM: ​
+1:28:58 PM: ❯ Config file
+1:28:58 PM:   No config file was defined: using default values.
+1:28:58 PM: ​
+1:28:58 PM: ❯ Context
+1:28:58 PM:   production
+1:28:59 PM: ​
+1:28:59 PM: ❯ Using Next.js Runtime - v5.11.4
+1:29:01 PM: No Next.js cache to restore
+1:29:01 PM: ​
+1:29:01 PM: Build command from Netlify app                                
+1:29:01 PM: ────────────────────────────────────────────────────────────────
+1:29:01 PM: ​
+1:29:01 PM: $ npm run build
+1:29:01 PM: > my-v0-project@0.1.0 build
+1:29:01 PM: > next build
+1:29:01 PM:  ⚠ You are using a non-standard "NODE_ENV" value in your environment. This creates inconsistencies in the project and is strongly advised against. Read more: https://nextjs.org/docs/messages/non-standard-node-env
+1:29:01 PM: ⚠ No build cache found. Please configure build caching for faster rebuilds. Read more: https://nextjs.org/docs/messages/no-cache
+1:29:01 PM:   ▲ Next.js 14.2.16
+1:29:01 PM:   - Experiments (use with caution):
+1:29:01 PM:     · esmExternals
+1:29:01 PM:    Creating an optimized production build ...
+1:29:27 PM:  ✓ Compiled successfully
+1:29:27 PM:    Skipping linting
+1:29:27 PM:    Checking validity of types ...
+1:29:35 PM:    Collecting page data ...
+1:29:41 PM: Environment check - MONGODB_URI exists: true
+1:29:41 PM: Environment check - MONGODB_URI exists: true
+1:29:41 PM: Environment check - MONGODB_URI exists: true
+1:29:41 PM: Environment check - MONGODB_URI exists: true
+1:29:41 PM: Environment check - MONGODB_URI length: 113
+1:29:41 PM: 🔄 Attempting to connect to MongoDB...
+1:29:41 PM: Connection URI (masked): mongodb+srv://***:***@cluster0.orsevgh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+1:29:41 PM: Environment check - MONGODB_URI length: 113
+1:29:41 PM: 🔄 Attempting to connect to MongoDB...
+1:29:41 PM: Environment check - MONGODB_URI length: 113
+1:29:41 PM: Connection URI (masked): mongodb+srv://***:***@cluster0.orsevgh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+1:29:41 PM: 🔄 Attempting to connect to MongoDB...
+1:29:41 PM: Environment check - MONGODB_URI length: 113
+1:29:41 PM: Environment check - MONGODB_URI exists: true
+1:29:41 PM: Environment check - MONGODB_URI exists: true
+1:29:41 PM: 🔄 Attempting to connect to MongoDB...
+1:29:41 PM: Connection URI (masked): mongodb+srv://***:***@cluster0.orsevgh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+1:29:41 PM: Environment check - MONGODB_URI length: 113
+1:29:41 PM: 🔄 Attempting to connect to MongoDB...
+1:29:41 PM: Connection URI (masked): mongodb+srv://***:***@cluster0.orsevgh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+1:29:41 PM: Environment check - MONGODB_URI length: 113
+1:29:41 PM: Connection URI (masked): mongodb+srv://***:***@cluster0.orsevgh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+1:29:41 PM: 🔄 Attempting to connect to MongoDB...
+1:29:41 PM: Connection URI (masked): mongodb+srv://***:***@cluster0.orsevgh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+1:29:41 PM: Environment check - MONGODB_URI exists: true
+1:29:41 PM: Environment check - MONGODB_URI length: 113
+1:29:41 PM: 🔄 Attempting to connect to MongoDB...
+1:29:41 PM: Connection URI (masked): mongodb+srv://***:***@cluster0.orsevgh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+1:29:41 PM: Environment check - MONGODB_URI exists: true
+1:29:41 PM: Environment check - MONGODB_URI length: 113
+1:29:41 PM: 🔄 Attempting to connect to MongoDB...
+1:29:41 PM: Connection URI (masked): mongodb+srv://***:***@cluster0.orsevgh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+1:29:41 PM: Environment check - MONGODB_URI exists: true
+1:29:41 PM: Environment check - MONGODB_URI length: 113
+1:29:41 PM: 🔄 Attempting to connect to MongoDB...
+1:29:41 PM: Connection URI (masked): mongodb+srv://***:***@cluster0.orsevgh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+1:29:41 PM: Environment check - MONGODB_URI exists: true
+1:29:41 PM: Environment check - MONGODB_URI exists: true
+1:29:41 PM: Environment check - MONGODB_URI length: 113
+1:29:41 PM: 🔄 Attempting to connect to MongoDB...
+1:29:41 PM: Connection URI (masked): mongodb+srv://***:***@cluster0.orsevgh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+1:29:41 PM: Environment check - MONGODB_URI length: 113
+1:29:41 PM: Environment check - MONGODB_URI exists: true
+1:29:41 PM: 🔄 Attempting to connect to MongoDB...
+1:29:41 PM: Connection URI (masked): mongodb+srv://***:***@cluster0.orsevgh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+1:29:41 PM: Environment check - MONGODB_URI exists: true
+1:29:41 PM: Environment check - MONGODB_URI length: 113
+1:29:41 PM: 🔄 Attempting to connect to MongoDB...
+1:29:41 PM: Connection URI (masked): mongodb+srv://***:***@cluster0.orsevgh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+1:29:41 PM: Environment check - MONGODB_URI length: 113
+1:29:41 PM: 🔄 Attempting to connect to MongoDB...
+1:29:41 PM: Connection URI (masked): mongodb+srv://***:***@cluster0.orsevgh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+1:29:41 PM: Environment check - MONGODB_URI exists: true
+1:29:41 PM: Environment check - MONGODB_URI length: 113
+1:29:41 PM: 🔄 Attempting to connect to MongoDB...
+1:29:41 PM: Connection URI (masked): mongodb+srv://***:***@cluster0.orsevgh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+1:29:41 PM: Environment check - MONGODB_URI exists: true
+1:29:41 PM: Environment check - MONGODB_URI exists: true
+1:29:41 PM: Environment check - MONGODB_URI length: 113
+1:29:41 PM: 🔄 Attempting to connect to MongoDB...
+1:29:41 PM: Environment check - MONGODB_URI length: 113
+1:29:41 PM: 🔄 Attempting to connect to MongoDB...
+1:29:41 PM: Environment check - MONGODB_URI exists: true
+1:29:41 PM: Connection URI (masked): mongodb+srv://***:***@cluster0.orsevgh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+1:29:41 PM: Connection URI (masked): mongodb+srv://***:***@cluster0.orsevgh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+1:29:41 PM: Environment check - MONGODB_URI length: 113
+1:29:41 PM: 🔄 Attempting to connect to MongoDB...
+1:29:41 PM: Connection URI (masked): mongodb+srv://***:***@cluster0.orsevgh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+1:29:41 PM: Environment check - MONGODB_URI exists: true
+1:29:42 PM: Environment check - MONGODB_URI length: 113
+1:29:42 PM: 🔄 Attempting to connect to MongoDB...
+1:29:42 PM: Connection URI (masked): mongodb+srv://***:***@cluster0.orsevgh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+1:29:42 PM: Environment check - MONGODB_URI exists: true
+1:29:42 PM: Environment check - MONGODB_URI length: 113
+1:29:42 PM: 🔄 Attempting to connect to MongoDB...
+1:29:42 PM: Connection URI (masked): mongodb+srv://***:***@cluster0.orsevgh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+1:29:42 PM: Environment check - MONGODB_URI exists: true
+1:29:42 PM: Environment check - MONGODB_URI length: 113
+1:29:42 PM: 🔄 Attempting to connect to MongoDB...
+1:29:42 PM: Connection URI (masked): mongodb+srv://***:***@cluster0.orsevgh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+1:29:42 PM: Environment check - MONGODB_URI exists: true
+1:29:42 PM: Environment check - MONGODB_URI length: 113
+1:29:42 PM: 🔄 Attempting to connect to MongoDB...
+1:29:42 PM: Connection URI (masked): mongodb+srv://***:***@cluster0.orsevgh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+1:29:42 PM: Environment check - MONGODB_URI exists: true
+1:29:42 PM: Environment check - MONGODB_URI exists: true
+1:29:42 PM: Environment check - MONGODB_URI length: 113
+1:29:42 PM: 🔄 Attempting to connect to MongoDB...
+1:29:42 PM: Connection URI (masked): mongodb+srv://***:***@cluster0.orsevgh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+1:29:42 PM: Environment check - MONGODB_URI exists: true
+1:29:42 PM: Environment check - MONGODB_URI length: 113
+1:29:42 PM: 🔄 Attempting to connect to MongoDB...
+1:29:42 PM: Connection URI (masked): mongodb+srv://***:***@cluster0.orsevgh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+1:29:42 PM: Environment check - MONGODB_URI exists: true
+1:29:42 PM: Environment check - MONGODB_URI length: 113
+1:29:42 PM: 🔄 Attempting to connect to MongoDB...
+1:29:42 PM: Environment check - MONGODB_URI length: 113
+1:29:42 PM: 🔄 Attempting to connect to MongoDB...
+1:29:42 PM: Connection URI (masked): mongodb+srv://***:***@cluster0.orsevgh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+1:29:42 PM: Connection URI (masked): mongodb+srv://***:***@cluster0.orsevgh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+1:29:42 PM: Environment check - MONGODB_URI exists: true
+1:29:42 PM: Environment check - MONGODB_URI length: 113
+1:29:42 PM: 🔄 Attempting to connect to MongoDB...
+1:29:42 PM: Connection URI (masked): mongodb+srv://***:***@cluster0.orsevgh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+1:29:42 PM: Environment check - MONGODB_URI exists: true
+1:29:42 PM: Environment check - MONGODB_URI length: 113
+1:29:42 PM: 🔄 Attempting to connect to MongoDB...
+1:29:42 PM: Connection URI (masked): mongodb+srv://***:***@cluster0.orsevgh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+1:29:42 PM: Environment check - MONGODB_URI exists: true
+1:29:42 PM: Environment check - MONGODB_URI length: 113
+1:29:42 PM: 🔄 Attempting to connect to MongoDB...
+1:29:42 PM: Connection URI (masked): mongodb+srv://***:***@cluster0.orsevgh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+1:29:42 PM: Environment check - MONGODB_URI exists: true
+1:29:42 PM: Environment check - MONGODB_URI length: 113
+1:29:42 PM: 🔄 Attempting to connect to MongoDB...
+1:29:42 PM: Connection URI (masked): mongodb+srv://***:***@cluster0.orsevgh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+1:29:42 PM: Environment check - MONGODB_URI exists: true
+1:29:42 PM: Environment check - MONGODB_URI length: 113
+1:29:42 PM: 🔄 Attempting to connect to MongoDB...
+1:29:42 PM: Connection URI (masked): mongodb+srv://***:***@cluster0.orsevgh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+1:29:42 PM: Environment check - MONGODB_URI exists: true
+1:29:42 PM: Environment check - MONGODB_URI length: 113
+1:29:42 PM: 🔄 Attempting to connect to MongoDB...
+1:29:42 PM: Connection URI (masked): mongodb+srv://***:***@cluster0.orsevgh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+1:29:44 PM:    Generating static pages (0/41) ...
+1:29:44 PM: 🔄 Getting database connection...
+1:29:44 PM: Team search error: B [Error]: Dynamic server usage: Route /api/teams/search couldn't be rendered statically because it used `request.url`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+    at V (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:21777)
+1:29:44 PM:     at Object.get (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:29137)
+1:29:44 PM:     at l (/opt/build/repo/.next/server/app/api/teams/search/route.js:1:597)
+1:29:44 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:37016
+1:29:44 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/trace/tracer.js:140:36
+1:29:44 PM:     at NoopContextManager.with (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:7062)
+1:29:44 PM:     at ContextAPI.with (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:518)
+1:29:44 PM:     at NoopTracer.startActiveSpan (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:18093)
+1:29:44 PM:     at ProxyTracer.startActiveSpan (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:18854)
+1:29:44 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/trace/tracer.js:122:103 {
+1:29:44 PM:   description: "Route /api/teams/search couldn't be rendered statically because it used `request.url`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+1:29:44 PM:   digest: 'DYNAMIC_SERVER_USAGE'
+1:29:44 PM: }
+1:29:45 PM: Get current user error: n [Error]: Dynamic server usage: Route /api/my-join-requests couldn't be rendered statically because it used `cookies`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+    at l (/opt/build/repo/.next/server/chunks/9780.js:1:37158)
+1:29:45 PM:     at f (/opt/build/repo/.next/server/app/api/my-join-requests/route.js:1:14579)
+1:29:45 PM:     at f (/opt/build/repo/.next/server/app/api/my-join-requests/route.js:1:3145)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/app/api/my-join-requests/route.js:1:1624)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:37016
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/trace/tracer.js:140:36
+1:29:45 PM:     at NoopContextManager.with (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:7062)
+1:29:45 PM:     at ContextAPI.with (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:518)
+1:29:45 PM:     at NoopTracer.startActiveSpan (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:18093)
+1:29:45 PM:     at ProxyTracer.startActiveSpan (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:18854) {
+1:29:45 PM:   description: "Route /api/my-join-requests couldn't be rendered statically because it used `cookies`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+1:29:45 PM:   digest: 'DYNAMIC_SERVER_USAGE'
+1:29:45 PM: }
+1:29:45 PM: Get current user error: n [Error]: Dynamic server usage: Route /api/auth/me couldn't be rendered statically because it used `cookies`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+    at l (/opt/build/repo/.next/server/chunks/9780.js:1:37158)
+1:29:45 PM:     at f (/opt/build/repo/.next/server/app/api/auth/register/route.js:1:14392)
+1:29:45 PM:     at f (/opt/build/repo/.next/server/app/api/auth/register/route.js:1:5642)
+1:29:45 PM:     at i (/opt/build/repo/.next/server/app/api/auth/me/route.js:1:1546)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:37016
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/trace/tracer.js:140:36
+1:29:45 PM:     at NoopContextManager.with (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:7062)
+1:29:45 PM:     at ContextAPI.with (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:518)
+1:29:45 PM:     at NoopTracer.startActiveSpan (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:18093)
+1:29:45 PM:     at ProxyTracer.startActiveSpan (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:18854) {
+1:29:45 PM:   description: "Route /api/auth/me couldn't be rendered statically because it used `cookies`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+1:29:45 PM:   digest: 'DYNAMIC_SERVER_USAGE'
+1:29:45 PM: }
+1:29:45 PM: Get current user error: n [Error]: Dynamic server usage: Route /api/activity-logs couldn't be rendered statically because it used `cookies`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+    at l (/opt/build/repo/.next/server/chunks/9780.js:1:37158)
+1:29:45 PM:     at f (/opt/build/repo/.next/server/app/api/teams/route.js:1:12760)
+1:29:45 PM:     at f (/opt/build/repo/.next/server/app/api/teams/route.js:1:3339)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/app/api/activity-logs/route.js:1:1586)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:37016
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/trace/tracer.js:140:36
+1:29:45 PM:     at NoopContextManager.with (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:7062)
+1:29:45 PM:     at ContextAPI.with (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:518)
+1:29:45 PM:     at NoopTracer.startActiveSpan (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:18093)
+1:29:45 PM:     at ProxyTracer.startActiveSpan (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:18854) {
+1:29:45 PM:   description: "Route /api/activity-logs couldn't be rendered statically because it used `cookies`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+1:29:45 PM:   digest: 'DYNAMIC_SERVER_USAGE'
+1:29:45 PM: }
+1:29:45 PM: Get current user error: n [Error]: Dynamic server usage: Route /api/team/members couldn't be rendered statically because it used `cookies`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+    at l (/opt/build/repo/.next/server/chunks/9780.js:1:37158)
+1:29:45 PM:     at f (/opt/build/repo/.next/server/chunks/5524.js:1:10687)
+1:29:45 PM:     at f (/opt/build/repo/.next/server/chunks/5524.js:1:1037)
+1:29:45 PM:     at c (/opt/build/repo/.next/server/app/api/team/members/route.js:1:1605)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:37016
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/trace/tracer.js:140:36
+1:29:45 PM:     at NoopContextManager.with (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:7062)
+1:29:45 PM:     at ContextAPI.with (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:518)
+1:29:45 PM:     at NoopTracer.startActiveSpan (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:18093)
+1:29:45 PM:     at ProxyTracer.startActiveSpan (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:18854) {
+1:29:45 PM:   description: "Route /api/team/members couldn't be rendered statically because it used `cookies`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+1:29:45 PM:   digest: 'DYNAMIC_SERVER_USAGE'
+1:29:45 PM: }
+1:29:45 PM: Get current user error: n [Error]: Dynamic server usage: Route /api/users couldn't be rendered statically because it used `cookies`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+    at l (/opt/build/repo/.next/server/chunks/9780.js:1:37158)
+1:29:45 PM:     at f (/opt/build/repo/.next/server/app/api/auth/login/route.js:1:13777)
+1:29:45 PM:     at f (/opt/build/repo/.next/server/app/api/auth/login/route.js:1:5027)
+1:29:45 PM:     at c (/opt/build/repo/.next/server/app/api/users/route.js:1:1545)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:37016
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/trace/tracer.js:140:36
+1:29:45 PM:     at NoopContextManager.with (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:7062)
+1:29:45 PM:     at ContextAPI.with (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:518)
+1:29:45 PM:     at NoopTracer.startActiveSpan (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:18093)
+1:29:45 PM:     at ProxyTracer.startActiveSpan (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:18854) {
+1:29:45 PM:   description: "Route /api/users couldn't be rendered statically because it used `cookies`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+1:29:45 PM:   digest: 'DYNAMIC_SERVER_USAGE'
+1:29:45 PM: }
+1:29:45 PM: Get current user error: n [Error]: Dynamic server usage: Route /api/users/search couldn't be rendered statically because it used `cookies`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+    at l (/opt/build/repo/.next/server/chunks/9780.js:1:37158)
+1:29:45 PM:     at f (/opt/build/repo/.next/server/chunks/3304.js:1:10290)
+1:29:45 PM:     at f (/opt/build/repo/.next/server/chunks/3304.js:1:1037)
+1:29:45 PM:     at l (/opt/build/repo/.next/server/app/api/users/search/route.js:1:1594)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:37016
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/trace/tracer.js:140:36
+1:29:45 PM:     at NoopContextManager.with (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:7062)
+1:29:45 PM:     at ContextAPI.with (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:518)
+1:29:45 PM:     at NoopTracer.startActiveSpan (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:18093)
+1:29:45 PM:     at ProxyTracer.startActiveSpan (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:18854) {
+1:29:45 PM:   description: "Route /api/users/search couldn't be rendered statically because it used `cookies`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+1:29:45 PM:   digest: 'DYNAMIC_SERVER_USAGE'
+1:29:45 PM: }
+1:29:45 PM:    Generating static pages (10/41)
+1:29:45 PM: Get current user error: n [Error]: Dynamic server usage: Route /api/my-teams couldn't be rendered statically because it used `cookies`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+    at l (/opt/build/repo/.next/server/chunks/9780.js:1:37158)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/app/api/reports/generate/route.js:145:603835)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/app/api/reports/generate/route.js:145:35885)
+1:29:45 PM:     at u (/opt/build/repo/.next/server/app/api/my-teams/route.js:1:1596)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:37016
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/trace/tracer.js:140:36
+1:29:45 PM:     at NoopContextManager.with (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:7062)
+1:29:45 PM:     at ContextAPI.with (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:518)
+1:29:45 PM:     at NoopTracer.startActiveSpan (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:18093)
+1:29:45 PM:     at ProxyTracer.startActiveSpan (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:18854) {
+1:29:45 PM:   description: "Route /api/my-teams couldn't be rendered statically because it used `cookies`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+1:29:45 PM:   digest: 'DYNAMIC_SERVER_USAGE'
+1:29:45 PM: }
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908) {
+1:29:45 PM:   digest: '185196747'
+1:29:45 PM: }
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM: Error occurred prerendering page "/notifications". Read more: https://nextjs.org/docs/messages/prerender-error
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908) {
+1:29:45 PM:   digest: '185196747'
+1:29:45 PM: }
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM: Error occurred prerendering page "/settings". Read more: https://nextjs.org/docs/messages/prerender-error
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908) {
+1:29:45 PM:   digest: '185196747'
+1:29:45 PM: }
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM: Error occurred prerendering page "/auth/register". Read more: https://nextjs.org/docs/messages/prerender-error
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908) {
+1:29:45 PM:   digest: '185196747'
+1:29:45 PM: }
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM: Error occurred prerendering page "/". Read more: https://nextjs.org/docs/messages/prerender-error
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908) {
+1:29:45 PM:   digest: '185196747'
+1:29:45 PM: }
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM: Error occurred prerendering page "/tasks". Read more: https://nextjs.org/docs/messages/prerender-error
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908) {
+1:29:45 PM:   digest: '185196747'
+1:29:45 PM: }
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM: Error occurred prerendering page "/_not-found". Read more: https://nextjs.org/docs/messages/prerender-error
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908) {
+1:29:45 PM:   digest: '185196747'
+1:29:45 PM: }
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM: Error occurred prerendering page "/projects". Read more: https://nextjs.org/docs/messages/prerender-error
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908) {
+1:29:45 PM:   digest: '185196747'
+1:29:45 PM: }
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM: Error occurred prerendering page "/calendar". Read more: https://nextjs.org/docs/messages/prerender-error
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908) {
+1:29:45 PM:   digest: '185196747'
+1:29:45 PM: }
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM: Error occurred prerendering page "/auth/login". Read more: https://nextjs.org/docs/messages/prerender-error
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:    Generating static pages (20/41)
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908) {
+1:29:45 PM:   digest: '185196747'
+1:29:45 PM: }
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM: Error occurred prerendering page "/dashboard/live-analytics". Read more: https://nextjs.org/docs/messages/prerender-error
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908) {
+1:29:45 PM:   digest: '185196747'
+1:29:45 PM: }
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM: Error occurred prerendering page "/projects/new". Read more: https://nextjs.org/docs/messages/prerender-error
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908) {
+1:29:45 PM:   digest: '185196747'
+1:29:45 PM: }
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM: Error occurred prerendering page "/tasks/new". Read more: https://nextjs.org/docs/messages/prerender-error
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908) {
+1:29:45 PM:   digest: '185196747'
+1:29:45 PM: }
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM: Error occurred prerendering page "/dashboard/time-tracking". Read more: https://nextjs.org/docs/messages/prerender-error
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908) {
+1:29:45 PM:   digest: '185196747'
+1:29:45 PM: }
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM: Error occurred prerendering page "/dashboard". Read more: https://nextjs.org/docs/messages/prerender-error
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908) {
+1:29:45 PM:   digest: '185196747'
+1:29:45 PM: }
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM: Error occurred prerendering page "/reports/advanced". Read more: https://nextjs.org/docs/messages/prerender-error
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:    Generating static pages (30/41)
+1:29:45 PM: Get current user error: n [Error]: Dynamic server usage: Route /api/timelogs couldn't be rendered statically because it used `cookies`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error
+    at l (/opt/build/repo/.next/server/chunks/9780.js:1:37158)
+1:29:45 PM:     at f (/opt/build/repo/.next/server/app/api/teams/[teamId]/route.js:1:13494)
+1:29:45 PM:     at f (/opt/build/repo/.next/server/app/api/teams/[teamId]/route.js:1:4073)
+1:29:45 PM:     at l (/opt/build/repo/.next/server/app/api/timelogs/route.js:1:1572)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-route.runtime.prod.js:6:37016
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/server/lib/trace/tracer.js:140:36
+1:29:45 PM:     at NoopContextManager.with (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:7062)
+1:29:45 PM:     at ContextAPI.with (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:518)
+1:29:45 PM:     at NoopTracer.startActiveSpan (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:18093)
+1:29:45 PM:     at ProxyTracer.startActiveSpan (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/@opentelemetry/api/index.js:1:18854) {
+1:29:45 PM:   description: "Route /api/timelogs couldn't be rendered statically because it used `cookies`. See more info here: https://nextjs.org/docs/messages/dynamic-server-error",
+1:29:45 PM:   digest: 'DYNAMIC_SERVER_USAGE'
+1:29:45 PM: }
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908) {
+1:29:45 PM:   digest: '185196747'
+1:29:45 PM: }
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM: Error occurred prerendering page "/team". Read more: https://nextjs.org/docs/messages/prerender-error
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908) {
+1:29:45 PM:   digest: '185196747'
+1:29:45 PM: }
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM: Error occurred prerendering page "/reports". Read more: https://nextjs.org/docs/messages/prerender-error
+1:29:45 PM: TypeError: Cannot read properties of null (reading 'useContext')
+1:29:45 PM:     at t.useContext (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js:12:109363)
+1:29:45 PM:     at d (/opt/build/repo/.next/server/chunks/8636.js:1:36650)
+1:29:45 PM:     at p (/opt/build/repo/.next/server/chunks/8636.js:1:28556)
+1:29:45 PM:     at au (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:10446)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:15122
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM:     at a_ (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:49776)
+1:29:45 PM:     at ab (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:11808)
+1:29:45 PM:     at /opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16871
+1:29:45 PM:     at aw (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/app-page.runtime.dev.js:35:16908)
+1:29:45 PM: Error: <Html> should not be imported outside of pages/_document.
+1:29:45 PM: Read more: https://nextjs.org/docs/messages/no-document-import-in-page
+1:29:45 PM:     at Q (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js:16:5430)
+1:29:45 PM:     at I (/opt/build/repo/.next/server/chunks/5268.js:6:1263)
+1:29:45 PM:     at renderWithHooks (/opt/build/repo/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+1:29:45 PM:     at renderIndeterminateComponent (/opt/build/repo/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+1:29:45 PM:     at renderElement (/opt/build/repo/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+1:29:45 PM:     at renderNodeDestructiveImpl (/opt/build/repo/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+1:29:45 PM:     at renderNodeDestructive (/opt/build/repo/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+1:29:45 PM:     at finishClassComponent (/opt/build/repo/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5688:3)
+1:29:45 PM:     at renderClassComponent (/opt/build/repo/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5696:3)
+1:29:45 PM:     at renderElement (/opt/build/repo/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5954:7)
+1:29:45 PM: Error occurred prerendering page "/500". Read more: https://nextjs.org/docs/messages/prerender-error
+1:29:45 PM: Error: <Html> should not be imported outside of pages/_document.
+1:29:45 PM: Read more: https://nextjs.org/docs/messages/no-document-import-in-page
+1:29:45 PM:     at Q (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js:16:5430)
+1:29:45 PM:     at I (/opt/build/repo/.next/server/chunks/5268.js:6:1263)
+1:29:45 PM:     at renderWithHooks (/opt/build/repo/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+1:29:45 PM:     at renderIndeterminateComponent (/opt/build/repo/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+1:29:45 PM:     at renderElement (/opt/build/repo/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+1:29:45 PM:     at renderNodeDestructiveImpl (/opt/build/repo/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+1:29:45 PM:     at renderNodeDestructive (/opt/build/repo/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+1:29:45 PM:     at finishClassComponent (/opt/build/repo/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5688:3)
+1:29:45 PM:     at renderClassComponent (/opt/build/repo/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5696:3)
+1:29:45 PM:     at renderElement (/opt/build/repo/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5954:7)
+1:29:45 PM: Error: <Html> should not be imported outside of pages/_document.
+1:29:45 PM: Read more: https://nextjs.org/docs/messages/no-document-import-in-page
+1:29:45 PM:     at Q (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js:16:5430)
+1:29:45 PM:     at I (/opt/build/repo/.next/server/chunks/5268.js:6:1263)
+1:29:45 PM:     at renderWithHooks (/opt/build/repo/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+1:29:45 PM:     at renderIndeterminateComponent (/opt/build/repo/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+1:29:45 PM:     at renderElement (/opt/build/repo/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+1:29:45 PM:     at renderNodeDestructiveImpl (/opt/build/repo/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+1:29:45 PM:     at renderNodeDestructive (/opt/build/repo/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+1:29:45 PM:     at finishClassComponent (/opt/build/repo/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5688:3)
+1:29:45 PM:     at renderClassComponent (/opt/build/repo/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5696:3)
+1:29:45 PM:     at renderElement (/opt/build/repo/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5954:7)
+1:29:45 PM: Error occurred prerendering page "/404". Read more: https://nextjs.org/docs/messages/prerender-error
+1:29:45 PM: Error: <Html> should not be imported outside of pages/_document.
+1:29:45 PM: Read more: https://nextjs.org/docs/messages/no-document-import-in-page
+1:29:45 PM:     at Q (/opt/build/repo/node_modules/.pnpm/next@14.2.16_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/next-server/pages.runtime.prod.js:16:5430)
+1:29:45 PM:     at I (/opt/build/repo/.next/server/chunks/5268.js:6:1263)
+1:29:45 PM:     at renderWithHooks (/opt/build/repo/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5658:16)
+1:29:45 PM:     at renderIndeterminateComponent (/opt/build/repo/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5732:15)
+1:29:45 PM:     at renderElement (/opt/build/repo/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5957:7)
+1:29:45 PM:     at renderNodeDestructiveImpl (/opt/build/repo/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6115:11)
+1:29:45 PM:     at renderNodeDestructive (/opt/build/repo/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.development.js:6087:14)
+1:29:45 PM:     at finishClassComponent (/opt/build/repo/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5688:3)
+1:29:45 PM:     at renderClassComponent (/opt/build/repo/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5696:3)
+1:29:45 PM:     at renderElement (/opt/build/repo/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom/cjs/react-dom-server.browser.development.js:5954:7)
+1:29:45 PM: ✅ MongoDB connection successful!
+1:29:45 PM: ✅ MongoDB connection successful!
+1:29:45 PM: ✅ Database connection verified
+1:29:45 PM: ✅ MongoDB connection successful!
+1:29:45 PM: ✅ MongoDB connection successful!
+1:29:45 PM: ✅ MongoDB connection successful!
+1:29:45 PM: ✅ MongoDB connection successful!
+1:29:45 PM: ✅ MongoDB connection successful!
+1:29:45 PM: ✅ MongoDB connection successful!
+1:29:45 PM: ✅ MongoDB connection successful!
+1:29:45 PM: ✅ MongoDB connection successful!
+1:29:45 PM: ✅ MongoDB connection successful!
+1:29:45 PM: ✅ MongoDB connection successful!
+1:29:45 PM: ✅ MongoDB connection successful!
+1:29:45 PM: ✅ MongoDB connection successful!
+1:29:45 PM: ✅ MongoDB connection successful!
+1:29:45 PM: ✅ MongoDB connection successful!
+1:29:45 PM: ✅ MongoDB connection successful!
+1:29:45 PM: ✅ MongoDB connection successful!
+1:29:45 PM: ✅ MongoDB connection successful!
+1:29:45 PM: ✅ MongoDB connection successful!
+1:29:45 PM: ✅ MongoDB connection successful!
+1:29:45 PM:  ✓ Generating static pages (41/41)
+1:29:45 PM: > Export encountered errors on following paths:
+1:29:45 PM: 	/_error: /404
+1:29:45 PM: 	/_error: /500
+1:29:45 PM: 	/_not-found/page: /_not-found
+1:29:45 PM: 	/auth/login/page: /auth/login
+1:29:45 PM: 	/auth/register/page: /auth/register
+1:29:45 PM: 	/calendar/page: /calendar
+1:29:45 PM: 	/dashboard/live-analytics/page: /dashboard/live-analytics
+1:29:45 PM: 	/dashboard/page: /dashboard
+1:29:45 PM: 	/dashboard/time-tracking/page: /dashboard/time-tracking
+1:29:45 PM: 	/notifications/page: /notifications
+1:29:45 PM: 	/page: /
+1:29:45 PM: 	/projects/new/page: /projects/new
+1:29:45 PM: 	/projects/page: /projects
+1:29:45 PM: 	/reports/advanced/page: /reports/advanced
+1:29:45 PM: 	/reports/page: /reports
+1:29:45 PM: 	/settings/page: /settings
+1:29:45 PM: 	/tasks/new/page: /tasks/new
+1:29:45 PM: 	/tasks/page: /tasks
+1:29:45 PM: 	/team/page: /team
+1:29:45 PM: ​
+1:29:45 PM: "build.command" failed                                        
+1:29:45 PM: ────────────────────────────────────────────────────────────────
+1:29:45 PM: ​
+1:29:45 PM:   Error message
+1:29:45 PM:   Command failed with exit code 1: npm run build (https://ntl.fyi/exit-code-1)
+1:29:45 PM: ​
+1:29:45 PM:   Error location
+1:29:45 PM:   In Build command from Netlify app:
+1:29:45 PM:   npm run build
+1:29:45 PM: ​
+1:29:45 PM:   Resolved config
+1:29:45 PM:   build:
+1:29:45 PM:     command: npm run build
+1:29:45 PM:     commandOrigin: ui
+1:29:45 PM:     environment:
+1:29:45 PM:       - JWT_SECRET
+1:29:45 PM:       - MONGODB_URI
+1:29:45 PM:       - NEXTAUTH_SECRET
+1:29:45 PM:       - NEXTAUTH_URL
+1:29:45 PM:       - NODE_ENV
+1:29:45 PM:       - SMTP_HOST
+1:29:45 PM:       - SMTP_PASS
+1:29:45 PM:       - SMTP_PORT
+1:29:45 PM:       - SMTP_SECURE
+1:29:45 PM:       - SMTP_USER
+1:29:45 PM:     publish: /opt/build/repo/.next
+1:29:45 PM:     publishOrigin: ui
+1:29:45 PM:   plugins:
+1:29:45 PM:     - inputs: {}
+1:29:45 PM:       origin: ui
+1:29:45 PM:       package: "@netlify/plugin-nextjs"
+1:29:46 PM: Build failed due to a user error: Build script returned non-zero exit code: 2
+1:29:46 PM: Failing build: Failed to build site
+1:29:46 PM: Finished processing build request in 1m7.419s
+1:29:46 PM: Failed during stage 'building site': Build script returned non-zero exit code: 2 (https://ntl.fyi/exit-code-2)
