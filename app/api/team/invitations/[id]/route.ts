@@ -30,10 +30,13 @@ export async function PATCH(request: NextRequest, { params }: RouteParams) {
     }
 
     if (status === "accepted") {
+      // Map "admin" role to "team_leader" for team members
+      const teamRole = invitation.role === "admin" ? "team_leader" : invitation.role
+      
       await TeamMemberModel.create({
         userId: invitation.userId,
         workspaceId: invitation.workspaceId,
-        role: invitation.role,
+        role: teamRole,
         status: "active",
       })
     }
