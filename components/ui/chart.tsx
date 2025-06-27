@@ -111,6 +111,7 @@ const ChartTooltipContent = React.forwardRef<
       indicator?: "line" | "dot" | "dashed"
       nameKey?: string
       labelKey?: string
+      payload?: any[]
     }
 >(
   (
@@ -253,7 +254,22 @@ const ChartTooltipContent = React.forwardRef<
       </div>
     )
   }
-)
+) as unknown as React.ForwardRefExoticComponent<
+  React.PropsWithoutRef<
+    Omit<
+      React.ComponentProps<typeof RechartsPrimitive.Tooltip> &
+        React.ComponentProps<'div'> & {
+          hideLabel?: boolean
+          hideIndicator?: boolean
+          indicator?: 'line' | 'dot' | 'dashed'
+          nameKey?: string
+          labelKey?: string
+          payload?: any[]
+        },
+      'ref'
+    > & React.RefAttributes<HTMLDivElement>
+  >
+>
 ChartTooltipContent.displayName = "ChartTooltip"
 
 const ChartLegend = RechartsPrimitive.Legend
