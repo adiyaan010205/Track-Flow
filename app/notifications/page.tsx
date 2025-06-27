@@ -1,23 +1,7 @@
-import { Suspense } from "react"
-import { getCurrentUser } from "@/lib/server-only/auth"
-import { redirect } from "next/navigation"
-import NotificationCenter from "@/components/notifications/notification-center"
-
-export default async function NotificationsPage() {
-  const user = await getCurrentUser()
-
-  if (!user) {
-    redirect("/auth/login")
-  }
-
-  return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
-      <Suspense fallback={<NotificationSkeleton />}>
-        <NotificationCenter user={user} />
-      </Suspense>
-    </div>
-  )
-}
+"use client";
+import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
+import NotificationCenter from "@/components/notifications/notification-center";
 
 function NotificationSkeleton() {
   return (
@@ -31,5 +15,40 @@ function NotificationSkeleton() {
         </div>
       </div>
     </div>
-  )
+  );
+}
+
+export default function NotificationsPage() {
+  const [user, setUser] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const router = useRouter();
+
+  useEffect(() => {
+    fetch("/api/auth/me")
+      .then((res) => {
+        if (res.status === 401) {
+          router.push("/auth/login");
+          return null;
+        }
+        return res.json();
+      })
+      .then((data) => {
+        if (data && data.user) {
+          setUser(data.user);
+        }
+        setLoading(false);
+      })
+      .catch(() => {
+        router.push("/auth/login");
+      });
+  }, [router]);
+
+  if (loading) return <NotificationSkeleton />;
+  if (!user) return null;
+
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
+      <NotificationCenter user={user} />
+    </div>
+  );
 }
