@@ -115,7 +115,7 @@ export default async function LiveAnalyticsPage() {
                     innerRadius={40}
                     outerRadius={60}
                     fill="#8884d8"
-                    label={({ name, percent }) => `${name} ${(percent * 100).toFixed(0)}%`}
+                    label={({ name, percent }) => `${name} ${((percent || 0) * 100).toFixed(0)}%`}
                   >
                     {donutChartData.map((entry, index) => (
                       <Cell key={`cell-${index}`} fill={entry.color} />
