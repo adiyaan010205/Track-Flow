@@ -7,6 +7,17 @@ import ActivityFeed from '@/components/dashboard/activity-feed'
 
 const LiveAnalyticsCharts = dynamic(() => import('./LiveAnalyticsCharts'), { ssr: false })
 
+// Add User type for client-side
+interface User {
+  _id: string;
+  name: string;
+  email: string;
+  role: "admin" | "member";
+  avatar?: string;
+  createdAt: string;
+  updatedAt: string;
+}
+
 function getStatsAndChartData(sessions: any[]) {
   // Stats
   const focusSessions = sessions.filter((s: any) => s.type === 'focus' && s.status === 'completed')
@@ -46,7 +57,7 @@ function getStatsAndChartData(sessions: any[]) {
 }
 
 export default function LiveAnalyticsPage() {
-  const [user, setUser] = useState(null);
+  const [user, setUser] = useState<User | null>(null);
   const [sessions, setSessions] = useState([]);
   const [loading, setLoading] = useState(true);
   const router = useRouter();
