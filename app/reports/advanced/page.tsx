@@ -1,21 +1,40 @@
-import { Suspense } from "react"
-import { getServerSession } from "@/lib/server-only/auth"
-import { redirect } from "next/navigation"
-import AdvancedReportsContent from "@/components/reports/advanced-reports-content"
-import MainLayout from "@/components/layout/main-layout"
+"use client";
+import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
+import AdvancedReportsContent from "@/components/reports/advanced-reports-content";
+import MainLayout from "@/components/layout/main-layout";
 
-export default async function AdvancedReportsPage() {
-  const session = await getServerSession()
+export default function AdvancedReportsPage() {
+  const [user, setUser] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const router = useRouter();
 
-  if (!session) {
-    redirect("/auth/login")
-  }
+  useEffect(() => {
+    fetch("/api/auth/me")
+      .then((res) => {
+        if (res.status === 401) {
+          router.push("/auth/login");
+          return null;
+        }
+        return res.json();
+      })
+      .then((data) => {
+        if (data && data.user) {
+          setUser(data.user);
+        }
+        setLoading(false);
+      })
+      .catch(() => {
+        router.push("/auth/login");
+      });
+  }, [router]);
+
+  if (loading) return <MainLayout><div>Loading...</div></MainLayout>;
+  if (!user) return null;
 
   return (
     <MainLayout>
-      <Suspense fallback={<div>Loading...</div>}>
-        <AdvancedReportsContent user={session} />
-      </Suspense>
+      <AdvancedReportsContent user={user} />
     </MainLayout>
-  )
+  );
 }
